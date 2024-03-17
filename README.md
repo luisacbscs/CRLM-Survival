@@ -30,3 +30,13 @@ This script is used to extract a few simple and explainable features from the av
 
 Extracting first order statistics and shape-based features from the liver's segmentation through the PyRadiomics library.
 
+## Exploratory Survival Analysis
+
+The library `scikit-survival` provides not only the implementation of different modules for survival prediction and performance evaluation, but very informative tutorials that aid the understanding of the
+basis behind survival analysis and the way the different methods are implemented: https://scikit-survival.readthedocs.io/en/stable/user_guide/index.html
+
+- `CRLM-Survival.ipynb`:
+
+This notebook (W.I.P.) contains the preprocessing of the available tabular clinical data, as well as preliminary results for hazard-based survival analysis of the CRLM dataset. The fusion of the tabular
+clinical data and the features extracted from the CT images is explored.
+
